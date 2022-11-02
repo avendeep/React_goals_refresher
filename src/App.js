@@ -20,6 +20,9 @@ function App() {
     <div className="App">
       <AddUser onAddUser={addUserHandler} />
       <UsersList users={usersList} />
+      <div>
+        Good morning
+      </div>
     </div>
   );
 }
